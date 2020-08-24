@@ -7,7 +7,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 include (CMake/GitFunctions.cmake)
 
 #calling my custom function to grab JUCE 6 from git:
-update_from_git(juce "https://github.com/juce-framework/juce" develop)
+update_from_git(juce "https://github.com/juce-framework/juce" master)
 
 #set any of these to "ON" if you want to build one of the juce examples
 #or extras (Projucer/AudioPluginHost, etc):
